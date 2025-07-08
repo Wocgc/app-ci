@@ -32,7 +32,7 @@ public class Vets {
 
     private List<Vet> vetList;
 
-    @XmlElement(name = "vet")
+    @XmlElement(name = "Wet")
     public List<Vet> getVetList() {
         if (vetList == null) {
             vetList = new ArrayList<>();
