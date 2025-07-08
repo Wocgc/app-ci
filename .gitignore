@@ -10,3 +10,7 @@ bin/
 
 # Maven
 target/
+
+*.war
+*.jar
+
