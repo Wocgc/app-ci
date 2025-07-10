@@ -21,6 +21,4 @@
         </div>
     </div>
 </petclinic:layout>
-</petclinic:layout>
 
-~                     
