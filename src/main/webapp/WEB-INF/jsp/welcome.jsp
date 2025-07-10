@@ -8,9 +8,9 @@
 
     <div class="row">
 	<div class="col-md-6">
-            <spring:url value="/resources/images/yang.jpg" var="imgYang"/>
-            <img class="img-responsive" src="${imgYang}" alt="Image yang"/>
-        </div>	
+            <spring:url value="/resources/images/Made-by-sun.jpg" htmlEscape="true" var="petsImage"/>
+            <img class="img-responsive" alt="Custom image" src="${petsImage}"/>
+	</div>	
     </div>
 </petclinic:layout>
 ~                     
