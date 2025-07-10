@@ -5,10 +5,24 @@
 
 <petclinic:layout pageName="home">
     <h3><fmt:message key="welcome to petclinic~~!"/></h3>
+    
     <div class="row">
-        <div class="col-md-12">
-            <spring:url value="/resources/images/Made-by-sun.jpg" htmlEscape="true" var="petsImage"/>
-            <img class="img-responsive" alt="Custom image" src="${petsImage}"/>
+        <div class="col-md-4">
+            <spring:url value="/resources/images/yang.jpg" var="img2"/>
+            <img class="img-responsive" src="${img1}" alt="Image 2"/>
         </div>
+        <div class="col-md-4">
+            <spring:url value="/resources/images/jae.jpg" var="img3"/>
+            <img class="img-responsive" src="${img2}" alt="Image 3"/>
+        <div class="col-md-4">
+            <spring:url value="/resources/images/one.jpg" var="img3"/>
+            <img class="img-responsive" src="${img3}" alt="Image 3"/>
+        </div>
+	</div>
+        <div class="col-md-4">
+            <spring:url value="/resources/images/1.jpg" var="img3"/>
+            <img class="img-responsive" src="${img4}" alt="Image 3"/>
+        </div>
+        </div>	
     </div>
 </petclinic:layout>
