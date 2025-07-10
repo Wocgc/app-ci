@@ -25,7 +25,7 @@
         </div>
         <div class="col-md-4">
             <spring:url value="/resources/images/2.jpg" var="img5"/>
-            <img class="img-responsive" src="${img5}" alt="Image "/>
+            <img class="img-responsive" src="${img5}" alt="Image 5"/>
         </div>
         <div class="col-md-4">
             <spring:url value="/resources/images/3.jpg" var="img6"/>
