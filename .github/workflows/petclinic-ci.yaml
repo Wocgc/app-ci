@@ -32,7 +32,10 @@ jobs:
 
       - name: Maven Build & Test
         run: ./mvnw clean package -PMySQL -DskipTests
-
+      
+      - name: Copy WAR for Docker
+        run: cp target/*.war docker/app/petclinic.war
+      
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v2
         with:
