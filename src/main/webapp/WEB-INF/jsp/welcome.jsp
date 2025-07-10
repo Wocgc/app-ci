@@ -23,6 +23,14 @@
             <spring:url value="/resources/images/one.jpg" var="img4"/>
             <img class="img-responsive" src="${img4}" alt="Image 4"/>
         </div>
+        <div class="col-md-4">
+            <spring:url value="/resources/images/2.jpg" var="img5"/>
+            <img class="img-responsive" src="${img5}" alt="Image "/>
+        </div>
+        <div class="col-md-4">
+            <spring:url value="/resources/images/3.jpg" var="img6"/>
+            <img class="img-responsive" src="${img6}" alt="Image 6"/>
+        </div>	
     </div>
 </petclinic:layout>
 
