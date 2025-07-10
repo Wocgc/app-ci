@@ -5,24 +5,27 @@
 
 <petclinic:layout pageName="home">
     <h3><fmt:message key="welcome to petclinic~~!"/></h3>
-    
+
     <div class="row">
-        <div class="col-md-4">
-            <spring:url value="/resources/images/yang.jpg" var="img2"/>
-            <img class="img-responsive" src="${img1}" alt="Image 2"/>
+        <div class="col-md-6">
+            <spring:url value="/resources/images/yang.jpg" var="imgYang"/>
+            <img class="img-responsive" src="${imgYang}" alt="Image yang"/>
         </div>
-        <div class="col-md-4">
-            <spring:url value="/resources/images/jae.jpg" var="img3"/>
-            <img class="img-responsive" src="${img2}" alt="Image 3"/>
-        <div class="col-md-4">
-            <spring:url value="/resources/images/one.jpg" var="img3"/>
-            <img class="img-responsive" src="${img3}" alt="Image 3"/>
+        <div class="col-md-6">
+            <spring:url value="/resources/images/jae.jpg" var="imgJae"/>
+            <img class="img-responsive" src="${imgJae}" alt="Image jae"/>
         </div>
-	</div>
-        <div class="col-md-4">
-            <spring:url value="/resources/images/1.jpg" var="img3"/>
-            <img class="img-responsive" src="${img4}" alt="Image 3"/>
+    </div>
+
+    <div class="row" style="margin-top: 20px;">
+        <div class="col-md-6">
+            <spring:url value="/resources/images/one.jpg" var="imgOne"/>
+            <img class="img-responsive" src="${imgOne}" alt="Image one"/>
         </div>
-        </div>	
+        <div class="col-md-6">
+            <spring:url value="/resources/images/1.jpg" var="img1"/>
+            <img class="img-responsive" src="${img1}" alt="Image 1"/>
+        </div>
     </div>
 </petclinic:layout>
+
