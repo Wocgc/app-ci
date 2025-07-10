@@ -1,10 +1,10 @@
 <%@ page session="false" trimDirectiveWhitespaces="true" %>
-<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
+<%@ taglib prefix="YangCarWorld" uri="http://www.springframework.org/tags" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ taglib prefix="petclinic" tagdir="/WEB-INF/tags" %>
 
 <petclinic:layout pageName="home">
-    <h3><fmt:message key="welcome to petclinic~~!"/></h3>
+    <h3><fmt:message key="Yang Jae One JangJang Man ~~~"/></h3>
 
     <div class="row">
         <div class="col-md-4">
